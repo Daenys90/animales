@@ -3,7 +3,7 @@
 class Animal {
     // Constructor de la clase Animal.
     constructor(nombre, edad, img, comentarios, sonido) {
-      // Propiedades privadas utilizando let y métodos de acceso.
+      
       let Nombre = nombre;
       this.getNombre = () => Nombre;
       let Edad = edad;
@@ -16,9 +16,7 @@ class Animal {
       this.getSonido = () => Sonido;
           }
   
-    // Métodos de acceso para las propiedades privadas.
-  
-    // Método para obtener el nombre del animal.
+    
     get Nombre() {
       return this.getNombre();
     }
