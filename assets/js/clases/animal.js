@@ -1,7 +1,7 @@
 // Definición de la clase Animal para representar objetos de animales
 
 class Animal {
-    // Constructor de la clase Animal.
+    // Constructor de la clase Animal
     constructor(nombre, edad, img, comentarios, sonido) {
       
       let Nombre = nombre;
@@ -15,8 +15,7 @@ class Animal {
       let Sonido = sonido;
       this.getSonido = () => Sonido;
           }
-  
-    
+      
     get Nombre() {
       return this.getNombre();
     }
@@ -37,7 +36,5 @@ class Animal {
         return this.getSonido();
     }
 }
-
-
   
   export default Animal; // Exporta la clase Animal para que pueda ser utilizada en otros módulos.

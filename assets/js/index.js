@@ -1,4 +1,4 @@
-import { Leon, Lobo, Oso, Serpiente, Aguila } from "clases/tipos.js"
+import { Leon, Lobo, Oso, Serpiente, Aguila } from "./clases/tipos.js";
 import animalesData from "./animales.js"; // Importa el módulo de datos de animales desde el archivo Animales.js
 
 
