@@ -35,6 +35,7 @@ class Animal {
     get Sonido() {
         return this.getSonido();
     }
-}
-  
-  export default Animal; // Exporta la clase Animal para que pueda ser utilizada en otros módulos.
+} 
+
+// Exporta la clase Animal
+export default Animal; 

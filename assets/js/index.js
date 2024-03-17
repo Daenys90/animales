@@ -1,4 +1,4 @@
-import { Leon, Lobo, Oso, Serpiente, Aguila } from "./clases/tipos.js";
+import { Leon, Lobo, Oso, Serpiente, Aguila } from "./clases/tipos.js"; // no funcionaba solo porque me faltaba el punto ./
 import animalesData from "./animales.js"; // Importa el módulo de datos de animales desde el archivo Animales.js
 
 
@@ -6,9 +6,9 @@ let animales = []; // Arreglo para almacenar los objetos de animales registrados
 
 // Función para recargar la tabla de animales en la interfaz de usuario
 const reloadTable = () => {
-    const animalesTemplate = document.getElementById("Animales"); // Obtiene el contenedor de la tabla de animales
-    animalesTemplate.innerHTML = ""; // Limpia el contenido actual de la tabla
-    //Iterando sobre el arreglo
+    const animalesTemplate = document.getElementById("Animales"); 
+    animalesTemplate.innerHTML = ""; 
+    
     animales.forEach((p, i) => {
         
         const mainContenedor = document.createElement("div");
@@ -75,6 +75,8 @@ window.modalDetails = (i) => {
     modalBody.appendChild(edad);
     modalBody.appendChild(comentarios);
 };
+
+
 
 // Variable para almacenar la ruta de la imagen del animal seleccionado
 let imagenSrc ="";

@@ -15,6 +15,8 @@ class Leon extends Animal {
   }
 }
 
+// los otors animales
+
 class Aguila extends Animal {
     constructor(nombre, edad, img, comentarios, sonido) {
         super(nombre, edad, img, comentarios, sonido)
@@ -60,6 +62,7 @@ class Serpiente extends Animal {
     }
 }
 
+//exportar
 
 export { 
     Leon,
